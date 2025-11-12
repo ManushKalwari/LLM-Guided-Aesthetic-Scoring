@@ -30,10 +30,8 @@ It highlights a broader idea: *AI shouldn’t just mirror data; it should learn 
 
 ---
 
----
-
 ### Note
-This work doesn’t fit neatly under standard reinforcement learning.  
+This approach doesn’t fit neatly under standard reinforcement learning.  
 - Unlike traditional RL, there’s no agent–environment loop or policy optimization; the goal here is to learn the reward function itself.  
 - Unlike PPO or GRPO, there's no gradient-based fine-tuning.  
 - This best fits under Symbolic Reasoning, where an LLM iteratively reasons about and rewrites interpretable code, guided by feedback.
