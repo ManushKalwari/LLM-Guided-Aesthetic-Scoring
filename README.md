@@ -26,5 +26,19 @@ It highlights a broader idea: *AI shouldn’t just mirror data; it should learn 
 
 ### Repository Contents
 - `Aesthetic_Reward_Function.ipynb` — main notebook with exploration, attribute analysis, and reward design  
-- `train_scores.csv` and `test_scores.csv` — human-annotated scores and abstract visual attributes assigned to images 
+- `train_scores.csv` and `test_scores.csv` — human-annotated scores and abstract visual attributes assigned to images
+
+---
+
+---
+
+### Note
+This work doesn’t fit neatly under standard reinforcement learning.  
+- Unlike traditional RL, there’s no agent–environment loop or policy optimization; the goal here is to learn the reward function itself.  
+- Unlike PPO or GRPO, there's no gradient-based fine-tuning.  
+- This best fits under Symbolic Reasoning, where an LLM iteratively reasons about and rewrites interpretable code, guided by feedback.
+
+Basically, it’s *LLM-guided symbolic optimization* where we use foundational LLM's reasoning rather than gradients.
+Here we use it to align quantitative metrics with qualitative human judgment.
+
 
